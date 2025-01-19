@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import ProfileCard from "../components/ProfileCard";
 import MapComponent from "../components/MapComponent";
+import man from "../pages/man.png";
+import female from "../pages/female.png";
 
 const HomePage: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState<string>("");
@@ -19,7 +21,7 @@ const HomePage: React.FC = () => {
     {
       id: 1,
       name: "Aarav Sharma",
-      photo: "man.png",
+      photo: man,
       description: "Software Developer from Bengaluru",
       location: "Bengaluru",
       latitude: 12.9716,
@@ -30,7 +32,7 @@ const HomePage: React.FC = () => {
     {
       id: 2,
       name: "Riya Gupta",
-      photo: "female.png",
+      photo: female,
       description: "UI/UX Designer based in Mumbai",
       location: "Mumbai",
       latitude: 19.076,
@@ -41,7 +43,7 @@ const HomePage: React.FC = () => {
     {
       id: 3,
       name: "Kabir Singh",
-      photo: "man.png",
+      photo: man,
       description: "Full Stack Developer from Delhi",
       location: "Delhi",
       latitude: 28.7041,
@@ -52,7 +54,7 @@ const HomePage: React.FC = () => {
     {
       id: 4,
       name: "Ananya Verma",
-      photo: "female.png",
+      photo: female,
       description: "Data Scientist from Hyderabad",
       location: "Hyderabad",
       latitude: 17.385,
@@ -63,7 +65,7 @@ const HomePage: React.FC = () => {
     {
       id: 5,
       name: "Ishaan Patel",
-      photo: "man.png",
+      photo: man,
       description: "Product Manager from Ahmedabad",
       location: "Ahmedabad",
       latitude: 23.0225,
@@ -74,7 +76,7 @@ const HomePage: React.FC = () => {
     {
       id: 6,
       name: "Meera Iyer",
-      photo: "female.png",
+      photo: female,
       description: "Software Engineer from Chennai",
       location: "Chennai",
       latitude: 13.0827,
@@ -85,7 +87,7 @@ const HomePage: React.FC = () => {
     {
       id: 7,
       name: "Arjun Das",
-      photo: "man.png",
+      photo: man,
       description: "DevOps Engineer from Kolkata",
       location: "Kolkata",
       latitude: 22.5726,
@@ -96,7 +98,7 @@ const HomePage: React.FC = () => {
     {
       id: 8,
       name: "Priya Nair",
-      photo: "female.png",
+      photo: female,
       description: "Cybersecurity Analyst from Kochi",
       location: "Kochi",
       latitude: 9.9312,
@@ -107,7 +109,7 @@ const HomePage: React.FC = () => {
     {
       id: 9,
       name: "Rohan Joshi",
-      photo: "man.png",
+      photo: man,
       description: "AI Researcher from Pune",
       location: "Pune",
       latitude: 18.5204,
@@ -118,7 +120,7 @@ const HomePage: React.FC = () => {
     {
       id: 10,
       name: "Sanya Kapoor",
-      photo: "female.png",
+      photo: female,
       description: "Cloud Architect from Jaipur",
       location: "Jaipur",
       latitude: 26.9124,
